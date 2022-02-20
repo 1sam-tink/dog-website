@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Twitter Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="content1">
+        <div class="rose">
+            <li><a href="">Samuel Dog Sevices</a></li>
+
+        </div>
+
+        <nav>
+            <ul id="menuitems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about_US">About Us</a></li>
+                <li><a href="#signUp">Sign Up</a></li>
+                <li><a href="#contact_US">Contact Us</a></li>
+
+            </ul>
+        </nav>
+        <img src="\Users\ks\Desktop\ecommerce Website\Ecommerce website images\menu.png" class="menu" onclick="menutoggle()">
+
+    </header>
+    <div id="content">
+        <div class="p1">
+
+
+            <img src="\Users\ks\Desktop\Personal Projects\1.jpg" alt="a background image" class="slide">
+
+        </div>
+
+    </div>
+    <div class="about_US" id="about_US">
+        <h1>About Us</h1>
+        <span>This is what we are about</span>
+
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <h3>OUR MISSION</h3>
+            <span>Our mission is to provide quality services to<br> our trusted and well behaved customers</span>
+
+        </div>
+        <div class="col-3">
+            <h3>OUR VISION</h3>
+            <span>Our mission is to provide quality services to <br>our trusted and well behaved customers</span>
+
+        </div>
+        <div class="col-3">
+            <h3>OUR GOALS</h3>
+            <span>Our mission is to provide quality services to <br> our trusted and well behaved customers </span>
+
+        </div>
+
+    </div>
+    <div class="row1">
+        <div class="col-2">
+            <div class="col-4">
+                <h2 id="services">Our Sevices</h1>
+                    <img src="\Users\ks\Desktop\Personal Projects\7.jpg" alt="">
+                    <img src="\Users\ks\Desktop\Personal Projects\6.jpg" alt="">
+                    <br>
+                    <img src="\Users\ks\Desktop\Personal Projects\2.jpg" alt="">
+                    <img src="\Users\ks\Desktop\Personal Projects\3.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="contact" id="contact_US">
+            <h2>Contact Us</h2>
+            <span>Do you have any enquiry or suggestions</span>
+            <input type="text" placeholder="name">
+            <br>
+            <input type="text" placeholder="Email">
+            <br>
+            <input type="text" placeholder="subject">
+            <br>
+            <textarea name="text" rows="8" cols="80"></textarea>
+            <br>
+            <button type="button" name="button">Submit</button>
+
+        </div>
+
+    </div>
+
+    <div class="Login1">
+        <div class="login" id="signUp">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="password">
+            <button type="button" name="button">Log In</button>
+            <br>
+            <span>Forgot Password? Sign Up</span>
+
+        </div>
+
+
+    </div>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
