@@ -266,4 +266,9 @@ button:hover {
         margin-top: 30px;
         text-align: center;
     }
+    .Login1 {
+        text-align: center;
+        padding: 0px;
+        background-color: white;
+    }
 }
